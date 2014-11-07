@@ -18,7 +18,7 @@ Produce an AST with balanced parentheses.
 Produce an AST with unbalanced parentheses.
 
 ## Version:
-Swift version 1.1 (swift-600.0.54.20)
+Swift version 1.1 (swift-600.0.54.20)<br/>
 Target: x86_64-apple-darwin13.4.0
 
 ## Attachments:

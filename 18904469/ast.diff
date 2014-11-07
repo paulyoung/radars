@@ -1,0 +1,10 @@
+--- constant.ast	2014-11-06 03:57:31.000000000 +0000
++++ expected.ast	2014-11-07 03:33:24.000000000 +0000
+@@ -10,6 +10,5 @@
+           (constructor_ref_call_expr implicit type='(_builtinStringLiteral: RawPointer, byteSize: Word, isASCII: Int1) -> String' location=<stdin>:1:21 range=[<stdin>:1:21 - line:1:21]
+             (declref_expr implicit type='String.Type -> (_builtinStringLiteral: RawPointer, byteSize: Word, isASCII: Int1) -> String' location=<stdin>:1:21 range=[<stdin>:1:21 - line:1:21] decl=Swift.(file).String.init(_builtinStringLiteral:byteSize:isASCII:) specialized=no)
+             (type_expr implicit type='String.Type' location=<stdin>:1:21 range=[<stdin>:1:21 - line:1:21] typerepr='<<IMPLICIT>>'))
+-          (string_literal_expr type='(_builtinStringLiteral: Builtin.RawPointer, byteSize: Builtin.Word, isASCII: Builtin.Int1)' location=<stdin>:1:21 range=[<stdin>:1:21 - line:1:21] encoding=utf8 value="Swift")))
+-)
++          (string_literal_expr type='(_builtinStringLiteral: Builtin.RawPointer, byteSize: Builtin.Word, isASCII: Builtin.Int1)' location=<stdin>:1:21 range=[<stdin>:1:21 - line:1:21] encoding=utf8 value="Swift")))))
+   (var_decl "swift" type='String' access=internal let storage_kind='stored'))

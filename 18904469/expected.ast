@@ -1,0 +1,14 @@
+(source_file
+  (top_level_code_decl
+    (brace_stmt
+      (pattern_binding_decl
+        (pattern_typed type='String'
+          (pattern_named type='String' 'swift')
+          (type_ident
+            (component id='String' bind=type)))
+        (call_expr implicit type='String' location=<stdin>:1:21 range=[<stdin>:1:21 - line:1:21]
+          (constructor_ref_call_expr implicit type='(_builtinStringLiteral: RawPointer, byteSize: Word, isASCII: Int1) -> String' location=<stdin>:1:21 range=[<stdin>:1:21 - line:1:21]
+            (declref_expr implicit type='String.Type -> (_builtinStringLiteral: RawPointer, byteSize: Word, isASCII: Int1) -> String' location=<stdin>:1:21 range=[<stdin>:1:21 - line:1:21] decl=Swift.(file).String.init(_builtinStringLiteral:byteSize:isASCII:) specialized=no)
+            (type_expr implicit type='String.Type' location=<stdin>:1:21 range=[<stdin>:1:21 - line:1:21] typerepr='<<IMPLICIT>>'))
+          (string_literal_expr type='(_builtinStringLiteral: Builtin.RawPointer, byteSize: Builtin.Word, isASCII: Builtin.Int1)' location=<stdin>:1:21 range=[<stdin>:1:21 - line:1:21] encoding=utf8 value="Swift")))))
+  (var_decl "swift" type='String' access=internal let storage_kind='stored'))

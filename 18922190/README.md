@@ -1,5 +1,7 @@
 # 18922190
 
+swiftc: provide an option to dump the AST as JSON
+
 ## Summary:
 The AST of a Swift file can be output using swiftc via the --dump-ast flag. Please provide a way to output this as JSON.
 

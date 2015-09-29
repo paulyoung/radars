@@ -24,3 +24,9 @@ Version 7.0 (7A220)
 
 ## Notes:
 Between this issue and [rdar://20490378](http://www.openradar.me/20490378) the build failures are so frequent that xcodebuild (and therefore CI) is basically useless.
+
+***
+
+Please check the latest version of the project which includes a file located at ./script/update, to be run between steps 2 and 3.
+
+Alternatively, use the --recursive flag when running git clone in step 2.

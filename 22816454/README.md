@@ -27,6 +27,26 @@ Between this issue and [rdar://20490378](http://www.openradar.me/20490378) the b
 
 ***
 
+We need more information to investigate this issue.
+
+The attached project is missing the ImgFlo and Crypto projects, which are required to build it; thus, we cannot reproduce this. Can you please attach the files needed to reproduce this?
+
+Please provide your response or results by updating your bug report.
+
+***
+
 Please check the latest version of the project which includes a file located at ./script/update, to be run between steps 2 and 3.
 
 Alternatively, use the --recursive flag when running git clone in step 2.
+
+***
+
+It appears there was an issue with your attachments and they are no longer available on this report. Could you please re-upload the files to this bug report so we can continue to further investigate this issue?
+
+Please provide your response or results by updating your bug report.
+
+***
+
+There were no attachments. Everything is available on GitHub, but here's a zip file containing the current state of the project.
+
+'MinimumDeploymentTargetBug.zip' was successfully uploaded.

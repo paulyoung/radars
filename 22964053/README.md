@@ -18,3 +18,22 @@ Thread 1: EXC_BAD_ACCESS (code=2, address=0x7fff5c937fb8)
 
 ## Version:
 Version 7.0.1 (7A1001)
+
+***
+
+We need more information to investigate this issue.
+
+Please attach a crash log and a reproducing project of the issue encountered.
+
+To locate the crash log(s), please check the following locations (you may need to do this in a Terminal window, rather than using Finder):
+
+~/Library/Logs/DiagnosticReports
+/Library/Logs/DiagnosticReports
+
+Please provide your response or results by updating your bug report.
+
+***
+
+Attached is the project mentioned in the original bug report. It appears that the bug causes the tests to hang, so no crash log is produced.
+
+'OptionalEquatableCollection.zip' was successfully uploaded.
